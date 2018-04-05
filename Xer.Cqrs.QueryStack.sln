@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{EA7247F8-22B6-4BE7-8D3C-7D3EADDF3290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FDAE8142-C088-4B1C-AF5E-CCF49D3E02DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xer.Cqrs.QueryStack", "Src\Xer.Cqrs.QueryStack\Xer.Cqrs.QueryStack.csproj", "{2FE3D368-8967-45C5-9F7B-DF2EB7701995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xer.Cqrs.QueryStack.Tests", "Tests\Xer.Cqrs.QueryStack.Tests\Xer.Cqrs.QueryStack.Tests.csproj", "{96739FCF-1B3E-4F12-8651-51C46A47A88B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE3D368-8967-45C5-9F7B-DF2EB7701995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE3D368-8967-45C5-9F7B-DF2EB7701995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE3D368-8967-45C5-9F7B-DF2EB7701995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE3D368-8967-45C5-9F7B-DF2EB7701995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96739FCF-1B3E-4F12-8651-51C46A47A88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96739FCF-1B3E-4F12-8651-51C46A47A88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96739FCF-1B3E-4F12-8651-51C46A47A88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96739FCF-1B3E-4F12-8651-51C46A47A88B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FE3D368-8967-45C5-9F7B-DF2EB7701995} = {EA7247F8-22B6-4BE7-8D3C-7D3EADDF3290}
+		{96739FCF-1B3E-4F12-8651-51C46A47A88B} = {FDAE8142-C088-4B1C-AF5E-CCF49D3E02DE}
+	EndGlobalSection
+EndGlobal
